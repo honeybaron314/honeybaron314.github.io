@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/honeybaron-honey/static/css/main.c824ac8f.css",
+    "main.js": "/honeybaron-honey/static/js/main.4693a33c.js",
+    "static/js/453.e972c3ff.chunk.js": "/honeybaron-honey/static/js/453.e972c3ff.chunk.js",
+    "index.html": "/honeybaron-honey/index.html",
+    "main.c824ac8f.css.map": "/honeybaron-honey/static/css/main.c824ac8f.css.map",
+    "main.4693a33c.js.map": "/honeybaron-honey/static/js/main.4693a33c.js.map",
+    "453.e972c3ff.chunk.js.map": "/honeybaron-honey/static/js/453.e972c3ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c824ac8f.css",
+    "static/js/main.4693a33c.js"
+  ]
+}
