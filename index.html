@@ -1,67 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		    <meta charset="UTF-8">
-		        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-			    <title>My Static Web Page</title>
-			        <style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Web Page</title>
+    <style>
         body {
-		            font-family: Arial, sans-serif;
-			                background-color: #f0f0f0;
-					            margin: 0;
-						                padding: 0;
-								        }
-	        header, footer {
-			            background-color: #333;
-				                color: #fff;
-						            text-align: center;
-							                padding: 1em 0;
-									        }
-		        nav {
-				            background-color: #444;
-					                padding: 1em;
-							            text-align: center;
-								            }
-			        nav a {
-					            color: #fff;
-						                margin: 0 1em;
-								            text-decoration: none;
-									            }
-				        main {
-						            padding: 2em;
-							                background-color: #fff;
-									        }
-					        h1, h2 {
-							            color: #333;
-								            }
-						    </style>
-	</head>
-	<body>
-		    <header>
-			            <h1>Welcome to My Web Page</h1>
-				        </header>
-					    <nav>
-						            <a href="#about">About Me</a>
-							            <a href="#portfolio">Portfolio</a>
-								            <a href="#contact">Contact</a>
-									        </nav>
-										    <main>
-											            <section id="about">
-													                <h2>About Me</h2>
-															            <p>This is a simple static web page to introduce myself.</p>
-																            </section>
-																	            <section id="portfolio">
-																			                <h2>Portfolio</h2>
-																					            <p>Here you can see my recent projects.</p>
-																						            </section>
-																							            <section id="contact">
-																									                <h2>Contact</h2>
-																											            <p>Feel free to reach out via email at example@example.com.</p>
-																												            </section>
-																													        </main>
-																														    <footer>
-																															            <p>&copy; 2024 My Name. All rights reserved.</p>
-																																        </footer>
-	</body>
-</html>
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #333;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        main {
+            padding: 2em;
+            background-color: #fff;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Honey Baron, LLC <br>
+			<img src="Honey_Baron.jpeg" alt="Honey Bee" width="150" height="100">
+		</h1>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We believe nature has created a perfect product for your mind and body and need not be messed with. </p>
+			<p>We produce organic, unfiltered, never-heated, untreated and in any way unadulterated honey from our local bees. </p>
+			<p>We are based in Stamping Ground, KY and our honey is made from our own fields and orchards, utreated with any chemicals or pesticides.</p>	
+			<p><b>Our Goal: Pure Honey from the Bees to You!</b></p>
+        </section>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p>Kentucky has a wonderfull climate and flora allowing us to create three types of honey.</p>
+			<p><b>Spring honey </b> is made from late April through early June containing primarily black locust, cherry, apple, pear (from our orchard) and dutch clover nectar from our fields. Spring honey is lite in color with very sweet and mild flavor. </p>
+			<p><b>Fall honey </b> is made from mid June through early August containing primarily poplar and dutch clover. Fall honey is darker/amber in color with much less sweet yet more spicy/cinamony flavor. </p>
+			<p><b>Winter honey </b> is made from early September through late October containing primarily aster and golden rod honey. winter honey is the darkest in color but we let our bees keep this honey for the winter. </p>
 
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:honeybaron314@gmail.com"> honeybaron314@gmail.com</a></p>
+			<p>Tel: 502-535-5688</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Honey Baron, LLC  - all rights reserved.</p>
+    </footer>
+</body>
+</html>
